@@ -1,3 +1,5 @@
+#ref:https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/discussion/323095#1777969
+
 class Learner(pl.LightningModule):
     def __init__(self, model, num_train_steps, num_warmup_steps,
                  valid_df, wandb):
